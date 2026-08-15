@@ -7,13 +7,7 @@
 ### *Rising from raw market data to intelligent, risk-aware predictions*
 
 <p>
-<img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/Finance-Quantitative%20Analysis-purple" alt="Finance">
-<img src="https://img.shields.io/badge/ML-Scikit--learn%20%7C%20XGBoost-orange?logo=scikitlearn&logoColor=white" alt="ML">
-<img src="https://img.shields.io/badge/DL-PyTorch%20%2F%20TensorFlow-red?logo=pytorch&logoColor=white" alt="DL">
-<img src="https://img.shields.io/badge/Dashboard-Streamlit-ff4b4b?logo=streamlit&logoColor=white" alt="Streamlit">
-<img src="https://img.shields.io/badge/License-MIT-green" alt="License">
-<img src="https://img.shields.io/badge/Status-In%20Development-yellow" alt="Status">
+<p> <img src="https://img.shields.io/badge/Python-3.10+-1a1a1a?style=for-the-badge&logo=python&logoColor=FFD700" alt="Python"> <img src="https://img.shields.io/badge/Pandas-Data%20Wrangling-1a1a1a?style=for-the-badge&logo=pandas&logoColor=FF6B00" alt="Pandas"> <img src="https://img.shields.io/badge/NumPy-Numerical%20Core-1a1a1a?style=for-the-badge&logo=numpy&logoColor=FFA500" alt="NumPy"> <img src="https://img.shields.io/badge/Scikit--learn-Machine%20Learning-1a1a1a?style=for-the-badge&logo=scikitlearn&logoColor=FF8C00" alt="Scikit-learn"> <img src="https://img.shields.io/badge/XGBoost-Gradient%20Boosting-1a1a1a?style=for-the-badge&logoColor=FF4500" alt="XGBoost"> <br> <img src="https://img.shields.io/badge/PyTorch-Deep%20Learning-1a1a1a?style=for-the-badge&logo=pytorch&logoColor=D7263D" alt="PyTorch"> <img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-1a1a1a?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow"> <img src="https://img.shields.io/badge/Streamlit-Dashboard-1a1a1a?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit"> <img src="https://img.shields.io/badge/FastAPI-Backend-1a1a1a?style=for-the-badge&logo=fastapi&logoColor=FFA000" alt="FastAPI"> <img src="https://img.shields.io/badge/Plotly-Visualization-1a1a1a?style=for-the-badge&logo=plotly&logoColor=FFC300" alt="Plotly"> <br> <img src="https://img.shields.io/badge/Quant%20Finance-Options%20%26%20Greeks-1a1a1a?style=for-the-badge&logo=tradingview&logoColor=FFD700" alt="Finance"> <img src="https://img.shields.io/badge/License-MIT-1a1a1a?style=for-the-badge&logo=opensourceinitiative&logoColor=FFA500" alt="License"> <img src="https://img.shields.io/badge/Status-In%20Development-1a1a1a?style=for-the-badge&logoColor=FF6B00" alt="Status"> </p>
 </p>
 
 <b>Statistics • Probability • Option Pricing • Greeks • Machine Learning • Deep Learning</b>
@@ -259,8 +253,8 @@ L --> M[Research Findings]
 ```
 fino-stock-option-market-analyzer/
 │
-├── assets/
-│ └── phoenix.png
+├── Fino.png
+│ 
 │
 ├── data/
 │ ├── raw/
