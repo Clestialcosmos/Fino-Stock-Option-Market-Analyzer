@@ -198,14 +198,14 @@ The final dashboard is designed around a unified analysis workflow:
 |                       OPTION GREEKS                        |
 |   Delta | Gamma | Vega | Theta | Rho                       |
 +------------------------------------------------------------+
-|               SENSITIVITY & SCENARIO ANALYSIS               |
-|   Curves | Heatmaps | Greek Surfaces | Tables               |
+|               SENSITIVITY & SCENARIO ANALYSIS              |
+|   Curves | Heatmaps | Greek Surfaces | Tables              |
 +------------------------------------------------------------+
 |                     MODEL PREDICTIONS                      |
-|   BS | Binomial | Monte Carlo | RF | XGB | LSTM | Transformer|
+| BS | Binomial | Monte Carlo | RF | XGB | LSTM | Transformer|
 +------------------------------------------------------------+
 |                     MODEL COMPARISON                       |
-|   Actual vs Predicted | MAE | RMSE | MAPE | R^2             |
+|   Actual vs Predicted | MAE | RMSE | MAPE | R^2            |
 +------------------------------------------------------------+
 ```
 
@@ -379,8 +379,8 @@ Models can be compared across:
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/Clestialcosmos/Fino-Stock-Option-Market-Analyzer.git
+cd <folder_name>
 
 python -m venv venv
 
@@ -451,3 +451,5 @@ The goal is not simply to predict an option price, but to build an integrated en
 ### *Analyze • Price • Measure Risk • Predict • Research*
 
 </div>
+
+
