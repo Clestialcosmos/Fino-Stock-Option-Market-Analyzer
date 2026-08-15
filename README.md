@@ -2,7 +2,7 @@
 
 <img src="assets/phoenix.png" alt="FINO Phoenix Logo" width="380">
 
-# 🔥 FINO — Stock & Option Market Analyzer
+# FINO — Stock & Option Market Analyzer
 
 ### *Rising from raw market data to intelligent, risk-aware predictions*
 
@@ -22,13 +22,13 @@
 
 ---
 
-## 🐦‍🔥 Why "FINO" & the Phoenix?
+## Why "FINO" & the Phoenix?
 
 **FINO** stands for **F**inancial **IN**telligence & **O**ptions analysis — a platform built to take raw, chaotic market data and transform it into clear, actionable insight, the same way a phoenix rises renewed from fire and ash. The phoenix is FINO's symbol: volatile, ever-changing markets (the fire) refined through statistics, pricing models, Greeks, and machine learning into disciplined, data-driven understanding (the rebirth).
 
 ---
 
-## 📖 Overview
+## Overview
 
 **FINO — Stock & Option Market Analyzer** is an interactive quantitative-finance platform for analyzing stock and option markets through statistical analysis, probability, financial mathematics, risk analytics, option Greeks, machine learning, and deep learning.
 
@@ -38,38 +38,38 @@ It brings multiple approaches into one unified system:
 
 ```mermaid
 flowchart LR
-    A[📊 Market & Option Data] --> B[🧹 Cleaning & Validation]
-    B --> C[⚙️ Feature Engineering]
-    C --> D[📈 Statistics & Probability]
-    C --> E[📉 Volatility & Risk]
-    C --> F[💰 Option Pricing]
-    F --> G["Δ Γ Vega Θ ρ<br/>Greeks Engine"]
-    G --> H[🎯 Sensitivity Analysis]
-    C --> I[🤖 ML / DL Prediction]
-    F --> J[📊 Model Comparison]
-    I --> J
-    H --> K[🖥️ Interactive Dashboard]
-    J --> K
+A[Market & Option Data] --> B[Cleaning & Validation]
+B --> C[Feature Engineering]
+C --> D[Statistics & Probability]
+C --> E[Volatility & Risk]
+C --> F[Option Pricing]
+F --> G["Δ Γ Vega Θ ρ<br/>Greeks Engine"]
+G --> H[Sensitivity Analysis]
+C --> I[ML / DL Prediction]
+F --> J[Model Comparison]
+I --> J
+H --> K[Interactive Dashboard]
+J --> K
 ```
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 📈 Market & Statistical Analysis
+### Market & Statistical Analysis
 - Historical stock/index analysis
 - Returns and descriptive statistics
 - Skewness and kurtosis
 - Return distributions
 - Probability and conditional-probability analysis
 
-### 📉 Volatility & Risk
+### Volatility & Risk
 - Historical volatility
 - Implied volatility when available
 - Volatility-regime classification
 - Risk-oriented market analysis
 
-### 💰 Option Pricing
+### Option Pricing
 
 The project implements three classical pricing approaches:
 
@@ -79,7 +79,7 @@ The project implements three classical pricing approaches:
 | **Binomial Tree** | Numerical Call/Put pricing |
 | **Monte Carlo** | Simulation-based option pricing |
 
-### 🧮 Option Greeks
+### Option Greeks
 
 The project calculates the five standard Greeks:
 
@@ -92,52 +92,52 @@ The project calculates the five standard Greeks:
 | Rho | ρ | Sensitivity to interest rates |
 
 ```
-                     OPTION RISK
-                          │
-        ┌─────────────────┼─────────────────┐
-        ↓                 ↓                 ↓
-    Underlying         Volatility          Time
-        │                 │                 │
-      DELTA              VEGA              THETA
-        │
+                        OPTION RISK
+                             |
+        +--------------------+--------------------+
+        |                    |                     |
+    Underlying           Volatility               Time
+        |                    |                     |
+      DELTA                 VEGA                  THETA
+        |
       GAMMA
-                          │
-                    Interest Rate
-                          │
-                         RHO
+                             |
+                       Interest Rate
+                             |
+                            RHO
 ```
 
 ---
 
-## 🎯 Greek Sensitivity Analysis
+## Greek Sensitivity Analysis
 
 Instead of only displaying Greek values, the system studies how they change when market variables change.
 
 ```mermaid
 flowchart TD
-    A[Option Contract] --> B{Change Input}
-    B --> C[Spot Price]
-    B --> D[Volatility]
-    B --> E[Time to Expiry]
-    B --> F[Risk-Free Rate]
+A[Option Contract] --> B{Change Input}
+B --> C[Spot Price]
+B --> D[Volatility]
+B --> E[Time to Expiry]
+B --> F[Risk-Free Rate]
 
-    C --> G["Delta / Gamma"]
-    D --> H[Vega]
-    E --> I[Theta]
-    F --> J[Rho]
+C --> G["Delta / Gamma"]
+D --> H[Vega]
+E --> I[Theta]
+F --> J[Rho]
 
-    G --> K[📈 Curves]
-    H --> K
-    I --> K
-    J --> K
+G --> K[Curves]
+H --> K
+I --> K
+J --> K
 
-    K --> L[🔥 Heatmaps]
-    L --> M[🌐 3D Greek Surfaces]
+K --> L[Heatmaps]
+L --> M[3D Greek Surfaces]
 ```
 
 ---
 
-## 🤖 Machine Learning & Deep Learning
+## Machine Learning & Deep Learning
 
 The analyzer compares traditional mathematical pricing with data-driven prediction.
 
@@ -146,20 +146,20 @@ The analyzer compares traditional mathematical pricing with data-driven predicti
 | **Machine Learning** | Random Forest, XGBoost |
 | **Deep Learning** | LSTM, Transformer |
 
-### 🔬 Greek-Enhanced Experiment
+### Greek-Enhanced Experiment
 
 A key research component is testing whether Greeks improve prediction performance.
 
 ```mermaid
 flowchart LR
-    A[Market Features] --> B[Baseline Models]
-    C["Market Features + Greeks"] --> D[Greek-Enhanced Models]
+A[Market Features] --> B[Baseline Models]
+C["Market Features + Greeks"] --> D[Greek-Enhanced Models]
 
-    B --> E["MAE / RMSE / MAPE / R²"]
-    D --> F["MAE / RMSE / MAPE / R²"]
+B --> E["MAE / RMSE / MAPE / R²"]
+D --> F["MAE / RMSE / MAPE / R²"]
 
-    E --> G[📊 Performance Comparison]
-    F --> G
+E --> G[Performance Comparison]
+F --> G
 ```
 
 **Baseline features:** Spot Price · Strike Price · Time to Expiry · Implied Volatility · Volume · Open Interest · Historical Volatility
@@ -168,7 +168,7 @@ flowchart LR
 
 ---
 
-## ❓ Research Questions
+## Research Questions
 
 > Do Greek-derived features improve machine-learning and deep-learning option-price prediction?
 
@@ -182,111 +182,111 @@ Additional analysis includes:
 
 ---
 
-## 🖥️ Dashboard Concept
+## Dashboard Concept
 
 The final dashboard is designed around a unified analysis workflow:
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│         🔥 FINO — STOCK & OPTION MARKET ANALYZER 🔥        │
-├──────────────────────────────────────────────────────────┤
-│ Market Overview │ Statistics │ Probability │ Risk         │
-├──────────────────────────────────────────────────────────┤
-│                    OPTION CALCULATOR                       │
-│      Spot | Strike | Expiry | IV | Rate | Call / Put      │
-├──────────────────────────────────────────────────────────┤
-│                     OPTION GREEKS                          │
-│      Δ Delta │ Γ Gamma │ ν Vega │ Θ Theta │ ρ Rho          │
-├──────────────────────────────────────────────────────────┤
-│              SENSITIVITY & SCENARIO ANALYSIS               │
-│      Curves │ Heatmaps │ Greek Surfaces │ Tables           │
-├──────────────────────────────────────────────────────────┤
-│                    MODEL PREDICTIONS                       │
-│  BS │ Binomial │ Monte Carlo │ RF │ XGB │ LSTM │ Transformer│
-├──────────────────────────────────────────────────────────┤
-│                    MODEL COMPARISON                         │
-│    Actual vs Predicted │ MAE │ RMSE │ MAPE │ R²            │
-└──────────────────────────────────────────────────────────┘
++------------------------------------------------------------+
+|            FINO - STOCK & OPTION MARKET ANALYZER           |
++------------------------------------------------------------+
+| Market Overview | Statistics | Probability | Risk          |
++------------------------------------------------------------+
+|                     OPTION CALCULATOR                      |
+|   Spot | Strike | Expiry | IV | Rate | Call / Put          |
++------------------------------------------------------------+
+|                       OPTION GREEKS                        |
+|   Delta | Gamma | Vega | Theta | Rho                       |
++------------------------------------------------------------+
+|               SENSITIVITY & SCENARIO ANALYSIS               |
+|   Curves | Heatmaps | Greek Surfaces | Tables               |
++------------------------------------------------------------+
+|                     MODEL PREDICTIONS                      |
+|   BS | Binomial | Monte Carlo | RF | XGB | LSTM | Transformer|
++------------------------------------------------------------+
+|                     MODEL COMPARISON                       |
+|   Actual vs Predicted | MAE | RMSE | MAPE | R^2             |
++------------------------------------------------------------+
 ```
 
-> 💡 **Visual note:** This section can later be replaced with real screenshots from the Streamlit application.
+> **Visual note:** This section can later be replaced with real screenshots from the Streamlit application.
 
 ---
 
-## 🗺️ Complete Project Workflow
+## Complete Project Workflow
 
 ```mermaid
 flowchart TD
-    A[📥 Data Collection] --> B[🧹 Data Cleaning]
-    B --> C[⚙️ Feature Engineering]
+A[Data Collection] --> B[Data Cleaning]
+B --> C[Feature Engineering]
 
-    C --> D[📊 Statistics]
-    C --> E[🎲 Probability]
-    C --> F[📉 Volatility & Risk]
+C --> D[Statistics]
+C --> E[Probability]
+C --> F[Volatility & Risk]
 
-    C --> G[💰 Option Pricing]
-    G --> G1[Black-Scholes]
-    G --> G2[Binomial Tree]
-    G --> G3[Monte Carlo]
+C --> G[Option Pricing]
+G --> G1[Black-Scholes]
+G --> G2[Binomial Tree]
+G --> G3[Monte Carlo]
 
-    G --> H[🧮 Greeks]
-    H --> H1[Delta]
-    H --> H2[Gamma]
-    H --> H3[Vega]
-    H --> H4[Theta]
-    H --> H5[Rho]
+G --> H[Greeks]
+H --> H1[Delta]
+H --> H2[Gamma]
+H --> H3[Vega]
+H --> H4[Theta]
+H --> H5[Rho]
 
-    H --> I[🎯 Sensitivity Analysis]
+H --> I[Sensitivity Analysis]
 
-    C --> J[🤖 ML/DL]
-    J --> J1[Random Forest]
-    J --> J2[XGBoost]
-    J --> J3[LSTM]
-    J --> J4[Transformer]
+C --> J[ML/DL]
+J --> J1[Random Forest]
+J --> J2[XGBoost]
+J --> J3[LSTM]
+J --> J4[Transformer]
 
-    G --> K[📏 Evaluation]
-    J --> K
-    I --> K
+G --> K[Evaluation]
+J --> K
+I --> K
 
-    K --> L[🖥️ Dashboard]
-    L --> M[🔥 Research Findings]
+K --> L[Dashboard]
+L --> M[Research Findings]
 ```
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 fino-stock-option-market-analyzer/
 │
-├── 📁 assets/
-│   └── phoenix.png
+├── assets/
+│ └── phoenix.png
 │
-├── 📁 data/
-│   ├── raw/
-│   └── processed/
+├── data/
+│ ├── raw/
+│ └── processed/
 │
-├── 📁 notebooks/
-│   ├── data_analysis/
-│   ├── option_pricing/
-│   ├── greeks/
-│   └── ml_dl/
+├── notebooks/
+│ ├── data_analysis/
+│ ├── option_pricing/
+│ ├── greeks/
+│ └── ml_dl/
 │
-├── 📁 src/
-│   ├── data/
-│   ├── statistics/
-│   ├── probability/
-│   ├── volatility/
-│   ├── pricing/
-│   ├── greeks/
-│   ├── models/
-│   ├── evaluation/
-│   └── visualization/
+├── src/
+│ ├── data/
+│ ├── statistics/
+│ ├── probability/
+│ ├── volatility/
+│ ├── pricing/
+│ ├── greeks/
+│ ├── models/
+│ ├── evaluation/
+│ └── visualization/
 │
-├── 📁 dashboard/
-│   └── app.py
+├── dashboard/
+│ └── app.py
 │
-├── 📁 tests/
+├── tests/
 │
 ├── requirements.txt
 ├── README.md
@@ -295,7 +295,7 @@ fino-stock-option-market-analyzer/
 
 ---
 
-## 🧮 Black-Scholes Greek Core
+## Black-Scholes Greek Core
 
 The Black-Scholes implementation provides the analytical foundation for the Greeks.
 
@@ -327,7 +327,7 @@ $$d_2 = d_1 - \sigma\sqrt{T}$$
 
 ---
 
-## 📏 Model Evaluation
+## Model Evaluation
 
 The project evaluates predictions using:
 
@@ -345,22 +345,22 @@ Models can be compared across:
 
 ---
 
-## 🎁 Expected Outputs
+## Expected Outputs
 
-- ✅ Interactive market dashboard
-- ✅ Statistical and probability analysis
-- ✅ Volatility and risk analysis
-- ✅ Option price estimates
-- ✅ Delta, Gamma, Vega, Theta and Rho
-- ✅ Greek sensitivity analysis (curves, heatmaps, 3D surfaces)
-- ✅ ML/DL option-price predictions
-- ✅ Actual vs predicted comparisons
-- ✅ Model-performance comparison
-- ✅ Greek-enhanced research experiments
+- Interactive market dashboard
+- Statistical and probability analysis
+- Volatility and risk analysis
+- Option price estimates
+- Delta, Gamma, Vega, Theta and Rho
+- Greek sensitivity analysis (curves, heatmaps, 3D surfaces)
+- ML/DL option-price predictions
+- Actual vs predicted comparisons
+- Model-performance comparison
+- Greek-enhanced research experiments
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Category | Technology |
 |---|---|
@@ -376,7 +376,7 @@ Models can be compared across:
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 git clone https://github.com/<your-username>/<your-repository>.git
@@ -399,34 +399,34 @@ streamlit run dashboard/app.py
 
 ---
 
-## 🗺️ Project Roadmap
+## Project Roadmap
 
 | Stage | Task | Status |
 |---|---|---|
-| 01 | Project Definition | ✅ |
-| 02 | Data Collection | ⬜ |
-| 03 | Data Cleaning & Database | ⬜ |
-| 04 | Statistics & Probability | ⬜ |
-| 05 | Volatility & Risk | ⬜ |
-| 06 | Classical Option Pricing | ⬜ |
-| 07 | Greeks Engine | ⬜ |
-| 08 | Greek Sensitivity Analysis | ⬜ |
-| 09 | Random Forest & XGBoost | ⬜ |
-| 10 | LSTM & Transformer | ⬜ |
-| 11 | Greek-Enhanced Experiments | ⬜ |
-| 12 | Dashboard Integration | ⬜ |
-| 13 | Research Analysis | ⬜ |
-| 14 | Documentation & Demonstration | ⬜ |
+| 01 | Project Definition | Done |
+| 02 | Data Collection | Pending |
+| 03 | Data Cleaning & Database | Pending |
+| 04 | Statistics & Probability | Pending |
+| 05 | Volatility & Risk | Pending |
+| 06 | Classical Option Pricing | Pending |
+| 07 | Greeks Engine | Pending |
+| 08 | Greek Sensitivity Analysis | Pending |
+| 09 | Random Forest & XGBoost | Pending |
+| 10 | LSTM & Transformer | Pending |
+| 11 | Greek-Enhanced Experiments | Pending |
+| 12 | Dashboard Integration | Pending |
+| 13 | Research Analysis | Pending |
+| 14 | Documentation & Demonstration | Pending |
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is intended for **academic, educational and research purposes**. It does not provide guaranteed investment outcomes, investment advice, real-money trading, or automated order execution.
 
 ---
 
-## 👥 Team
+## Team
 
 **Team Project — 3 Members**
 
@@ -440,9 +440,9 @@ This project is intended for **academic, educational and research purposes**. It
 
 <div align="center">
 
-## 🔥 Why This Project?
+## Why This Project?
 
-**From market data → mathematical pricing → Greeks → sensitivity → machine learning → research.**
+**From market data, to mathematical pricing, to Greeks, to sensitivity, to machine learning, to research.**
 
 The goal is not simply to predict an option price, but to build an integrated environment where price, risk, sensitivity and predictive performance can be analyzed together — rising, like a phoenix, from raw data into clear insight.
 
