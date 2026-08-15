@@ -7,7 +7,7 @@
 ### *Rising from raw market data to intelligent, risk-aware predictions*
 
 <p>
-<img src = "https://github.com/Clestialcosmos/Fino-Stock-Option-Market-Analyzer/blob/main/Tools.png" alt = "Tools" width= "500">
+<img src = "https://github.com/Clestialcosmos/Fino-Stock-Option-Market-Analyzer/blob/main/Tools.png" alt = "Tools" width= "800">
 </p>
 
 <b>Statistics • Probability • Option Pricing • Greeks • Machine Learning • Deep Learning</b>
