@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/phoenix.png" alt="FINO Phoenix Logo" width="380">
+<img src="https://github.com/Clestialcosmos/Fino-Stock-Option-Market-Analyzer/blob/main/FINO.png" alt="FINO Phoenix Logo" width="380">
 
 # FINO — Stock & Option Market Analyzer
 
@@ -446,7 +446,7 @@ This project is intended for **academic, educational and research purposes**. It
 
 The goal is not simply to predict an option price, but to build an integrated environment where price, risk, sensitivity and predictive performance can be analyzed together — rising, like a phoenix, from raw data into clear insight.
 
-<img src="assets/phoenix.png" alt="FINO Phoenix" width="180">
+<img src="https://github.com/Clestialcosmos/Fino-Stock-Option-Market-Analyzer/blob/main/FINO.png" alt="FINO Phoenix" width="180">
 
 ### *Analyze • Price • Measure Risk • Predict • Research*
 
