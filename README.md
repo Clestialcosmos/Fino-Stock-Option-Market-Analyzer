@@ -254,7 +254,7 @@ L --> M[Research Findings]
 fino-stock-option-market-analyzer/
 │
 ├── Fino.png
-│ 
+├── Tools.png
 │
 ├── data/
 │ ├── raw/
